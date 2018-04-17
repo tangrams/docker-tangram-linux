@@ -1,17 +1,14 @@
-FROM alpine:3.7
+FROM ubuntu:16.04
 
-RUN apk add --no-cache \
-	clang \
+RUN apt-get update && apt-get install -y \
 	cmake \
-	curl-dev \
-	fontconfig-dev \
-	freetype-dev \
+	g++-4.9 \
 	git \
-	glfw-dev \
-	harfbuzz-dev \
-	icu-dev \
+	libcurl4-openssl-dev \
+	libglfw3-dev \
+	libicu-dev \
+	libfreetype6-dev \
+	libharfbuzz-dev \
 	make \
-	mesa-dev \
-	ninja \
-	openssh \
-	pkgconf \
+	ninja-build \
+	pkg-config \
