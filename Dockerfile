@@ -16,5 +16,6 @@ RUN apk add --no-cache \
 	linux-headers \
 	make \
 	mesa-dev \
+	ninja \
 	openssh \
 	pkgconf \
