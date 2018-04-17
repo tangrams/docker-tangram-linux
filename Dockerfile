@@ -5,6 +5,7 @@ RUN apt-get update && apt-get install -y \
 	g++-4.9 \
 	git \
 	libcurl4-openssl-dev \
+	libfontconfig1-dev \
 	libglfw3-dev \
 	libicu-dev \
 	libfreetype6-dev \
