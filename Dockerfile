@@ -1,11 +1,11 @@
 FROM alpine:3.7
 
 RUN apk add --no-cache \
+	clang \
 	cmake \
 	curl-dev \
 	fontconfig-dev \
 	freetype-dev \
-	g++ \
 	git \
 	glfw-dev \
 	harfbuzz-dev \
