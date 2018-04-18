@@ -2,7 +2,6 @@ FROM ubuntu:16.04
 
 RUN apt-get update && apt-get install -y \
 	cmake \
-	g++-4.9 \
 	git \
 	libcurl4-openssl-dev \
 	libfontconfig1-dev \
