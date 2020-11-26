@@ -13,5 +13,5 @@ RUN apt-get update && apt-get install -y \
 	ninja-build \
 	pkg-config \
 	libprotobuf-dev \
-	libprotobuf-lite8 \
+	libprotobuf-lite10 \
 	protobuf-compiler \
